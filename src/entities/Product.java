@@ -25,10 +25,6 @@ public class Product {
 		this.price = price;
 	}
 	
-	public String nonStaticUperCaseName() {
-		return name.toUpperCase();
-	}
-	
 	@Override
 	public String toString() {
 		return name + ", " + String.format("%.2f", price);
